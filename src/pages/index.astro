@@ -7,7 +7,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
   description="A Frontend Mentor coding challenge."
 >
   <div class="bg-theme-blue-950 flex h-screen justify-center px-6 pt-16 md:items-center md:pt-0">
-    <article class="bg-theme-blue-900 h-fit max-w-84 rounded-xl p-6">
+    <section class="bg-theme-blue-900 h-fit max-w-84 rounded-xl p-6">
       <div class="group relative">
         <img
           src="image-equilibrium.jpg"
@@ -16,6 +16,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
         />
         <div
           class="hover:bg-theme-cyan-400/50 absolute inset-0 flex h-full w-full cursor-pointer items-center justify-center rounded-lg opacity-100 transition-all duration-600 group-hover:opacity-100"
+          aria-hidden="true"
         >
           <svg
             width="48"
@@ -41,7 +42,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
       </p>
       <div class="mt-3 flex items-center justify-between md:mt-5">
         <div class="flex items-center gap-2">
-          <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"
+          <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
             ><path
               d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
               fill="#00FFF8"></path></svg
@@ -49,7 +50,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
           <p class="text-theme-cyan-400">0.041 ETH</p>
         </div>
         <div class="flex items-center gap-2">
-          <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"
+          <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
             ><path
               d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
               fill="#8BACD9"></path></svg
@@ -57,7 +58,7 @@ import MainLayout from "@/layouts/MainLayout.astro";
           <p class="text-theme-blue-500">3 days left</p>
         </div>
       </div>
-      <hr class="border-theme-blue-800 mt-4 md:mt-6" />
+      <hr class="border-theme-blue-800 mt-4 md:mt-6" aria-hidden="true" />
       <div class="mt-4 flex items-center gap-4 pb-2">
         <img
           src="image-avatar.png"
@@ -73,6 +74,6 @@ import MainLayout from "@/layouts/MainLayout.astro";
           >
         </p>
       </div>
-    </article>
+    </section>
   </div>
 </MainLayout>
