@@ -6,5 +6,28 @@ import MainLayout from "@/layouts/MainLayout.astro";
   title="Frontend Mentor | NFT preview card component"
   description="A Frontend Mentor coding challenge."
 >
-  <!-- Begin your journey here... -->
+  <article
+    class="bg-theme-blue-900 mx-6 mt-18 flex flex-col items-center justify-center rounded-xl"
+  >
+    <div class="p-6">
+      <img
+        src="image-equilibrium.jpg"
+        alt="Equilibrium #3429"
+        class="h-72 w-full rounded-lg object-cover"
+      />
+      <h1>Equilibrium #3429</h1>
+      <p class="text-theme-blue-500">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="flex items-center justify-between">
+        <img src="icon-ethereum.svg" alt="Ethereum Icon" class="size-4" />
+        <p class="text-theme-cyan-400">0.041 ETH</p>
+        <img src="icon-clock.svg" alt="Clock Icon" class="size-4" />
+        <p class="text-theme-blue-500">3 days left</p>
+      </div>
+      <hr class="border-theme-blue-800 my-4" />
+      <div class="flex items-center justify-between">
+        <img src="image-avatar.png" alt="Avatar" class="size-8 rounded-full" />
+        <p><span class="text-theme-blue-500">Creation of</span> Jules Wyvern</p>
+      </div>
+    </div>
+  </article>
 </MainLayout>
