@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Smart-Ace-Designs/Astro-CHANGEME)
-- Live Site URL: [Netlify](https://smartacedesigns-astro-CHANGEME.netlify.app/)
+- Solution URL: [GitHub](https://github.com/Smart-Ace-Designs/Astro-NFT-Preview-Card-Component)
+- Live Site URL: [Netlify](https://smartacedesigns-astro-nft-pcc.netlify.app/)
 
 ## My process
 
@@ -38,7 +38,6 @@ Users should be able to:
 - Astro [Space](https://github.com/Smart-Ace-Designs/Astro-Space) Template
 - Tailwind CSS
 - Flexbox
-- CSS Grid
 - Bun
 - Mobile-first workflow
 
