@@ -6,39 +6,37 @@ import MainLayout from "@/layouts/MainLayout.astro";
   title="Frontend Mentor | NFT preview card component"
   description="A Frontend Mentor coding challenge."
 >
-  <div class="flex justify-center px-6 pt-16">
-    <article class="bg-theme-blue-900 max-w-96 flex-col rounded-xl">
-      <div class="p-6">
+  <div class="bg-theme-blue-950 flex h-screen justify-center px-6 pt-16">
+    <article class="bg-theme-blue-900 h-fit max-w-96 rounded-xl p-6">
+      <img
+        src="image-equilibrium.jpg"
+        alt="Equilibrium #3429"
+        class="h-70 w-full rounded-lg object-cover"
+      />
+      <h1 class="text-theme-white mt-5 text-xl font-semibold tracking-wider">Equilibrium #3429</h1>
+      <p class="text-theme-blue-500 mt-2 leading-relaxed font-light">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="mt-3 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <img src="icon-ethereum.svg" alt="Ethereum Icon" class="size-4" />
+          <p class="text-theme-cyan-400">0.041 ETH</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <img src="icon-clock.svg" alt="Clock Icon" class="size-4" />
+          <p class="text-theme-blue-500">3 days left</p>
+        </div>
+      </div>
+      <hr class="border-theme-blue-800 my-4" />
+      <div class="flex items-center gap-4">
         <img
-          src="image-equilibrium.jpg"
-          alt="Equilibrium #3429"
-          class="h-70 w-full rounded-lg object-cover"
+          src="image-avatar.png"
+          alt="Avatar"
+          class="border-theme-white size-8 rounded-full border"
         />
-        <h1 class="mt-5 text-xl font-semibold tracking-wider">Equilibrium #3429</h1>
-        <p class="text-theme-blue-500 mt-2 leading-relaxed font-light">
-          Our Equilibrium collection promotes balance and calm.
+        <p class="text-theme-white font-light">
+          <span class="text-theme-blue-500">Creation of</span> Jules Wyvern
         </p>
-        <div class="mt-3 flex items-center justify-between">
-          <div class="flex items-center gap-2">
-            <img src="icon-ethereum.svg" alt="Ethereum Icon" class="size-4" />
-            <p class="text-theme-cyan-400">0.041 ETH</p>
-          </div>
-          <div class="flex items-center gap-2">
-            <img src="icon-clock.svg" alt="Clock Icon" class="size-4" />
-            <p class="text-theme-blue-500">3 days left</p>
-          </div>
-        </div>
-        <hr class="border-theme-blue-800 my-4" />
-        <div class="flex items-center gap-4">
-          <img
-            src="image-avatar.png"
-            alt="Avatar"
-            class="border-theme-white size-8 rounded-full border"
-          />
-          <p class="font-light">
-            <span class="text-theme-blue-500">Creation of</span> Jules Wyvern
-          </p>
-        </div>
       </div>
     </article>
   </div>
