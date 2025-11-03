@@ -10,8 +10,8 @@ import profileImage from "@/assets/image-avatar.png";
   title="Frontend Mentor | NFT preview card component"
   description="A Frontend Mentor coding challenge."
 >
-  <div class="bg-theme-blue-950 flex h-screen justify-center px-6 pt-16 md:items-center md:pt-0">
-    <section class="bg-theme-blue-900 h-fit max-w-84 rounded-xl p-6">
+  <div class="flex h-screen justify-center bg-theme-blue-950 px-6 pt-16 md:items-center md:pt-0">
+    <section class="h-fit max-w-84 rounded-xl bg-theme-blue-900 p-6">
       <a href="/">
         <div class="group relative">
           <Image
@@ -24,7 +24,7 @@ import profileImage from "@/assets/image-avatar.png";
             format="webp"
           />
           <div
-            class="hover:bg-theme-cyan-400/50 absolute inset-0 flex h-full w-full cursor-pointer items-center justify-center rounded-lg opacity-100 transition-all duration-600 group-hover:opacity-100"
+            class="absolute inset-0 flex h-full w-full cursor-pointer items-center justify-center rounded-lg opacity-100 transition-all duration-600 group-hover:opacity-100 hover:bg-theme-cyan-400/50"
             aria-hidden="true"
           >
             <svg
@@ -44,11 +44,11 @@ import profileImage from "@/assets/image-avatar.png";
         </div>
       </a>
       <h1
-        class="text-theme-white hover:text-theme-cyan-400 mt-5 text-xl font-semibold tracking-wider transition-colors duration-600 hover:cursor-pointer"
+        class="mt-5 text-xl font-semibold tracking-wider text-theme-white transition-colors duration-600 hover:cursor-pointer hover:text-theme-cyan-400"
       >
         <a href="/">Equilibrium #3429</a>
       </h1>
-      <p class="text-theme-blue-500 mt-2 leading-relaxed font-light md:mt-3 md:text-lg">
+      <p class="mt-2 leading-relaxed font-light text-theme-blue-500 md:mt-3 md:text-lg">
         Our Equilibrium collection promotes balance and calm.
       </p>
       <div class="mt-3 flex items-center justify-between md:mt-5">
@@ -69,22 +69,22 @@ import profileImage from "@/assets/image-avatar.png";
           <p class="text-theme-blue-500">3 days left</p>
         </div>
       </div>
-      <hr class="border-theme-blue-800 mt-4 md:mt-6" aria-hidden="true" />
+      <hr class="mt-4 border-theme-blue-800 md:mt-6" aria-hidden="true" />
       <div class="mt-4 flex items-center gap-4 md:pb-2">
         <Image
           src={profileImage}
           alt="Jules Wyvern"
-          class="border-theme-white size-8 rounded-full border"
+          class="size-8 rounded-full border border-theme-white"
           loading="eager"
           width={132}
           height={132}
           format="webp"
         />
-        <p class="text-theme-white font-light">
+        <p class="font-light text-theme-white">
           <span class="text-theme-blue-500">Creation of</span>
           <a
             href="mailto:juleswyvern@acme.com"
-            class="hover:text-theme-cyan-400 transition-colors duration-600 hover:cursor-pointer"
+            class="transition-colors duration-600 hover:cursor-pointer hover:text-theme-cyan-400"
             >Jules Wyvern</a
           >
         </p>
