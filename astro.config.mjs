@@ -16,7 +16,6 @@ export default defineConfig({
         name: "Outfit",
         cssVariable: "--font-outfit",
         weights: [300, 400, 600],
-        subsets: ["latin"],
         styles: ["normal"],
       },
     ],
